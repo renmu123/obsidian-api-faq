@@ -15,7 +15,7 @@
     - [设置光标](#设置光标)
     - [获取滚动位置](#获取滚动位置)
     - [设置滚动位置](#设置滚动位置)
-    - [获取自定义 frontmatter](#获取自定义frontmatter)
+    - [获取自定义 frontmatter](#获取自定义-frontmatter)
     - [获取选中的文字](#获取选中的文字)
     - [发送通知](#发送通知)
 - [plugin](#plugin)
@@ -142,7 +142,7 @@ const editor = this.getEditor()
 editor.scrollTo(left, top);
 ```
 
-## 获取自定义frontmatter
+## 获取自定义 frontmatter
 
 ```ts
   getFrontmatterValue(key: string, defaultValue: any = undefined) {
