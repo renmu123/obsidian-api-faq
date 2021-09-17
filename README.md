@@ -1,3 +1,30 @@
+# 目录
+
+- [vault](#vault)
+    - [获取库的基础路径](#获取库的基础路径)
+    - [获取全局设置](#获取全局设置)
+- [workspace](#workspace)
+    - [获取当前编辑器](#获取当前编辑器)
+- [editor](#editor)
+    - [获取编辑器内容](#获取编辑器内容)
+    - [设置编辑器内容](#设置编辑器内容)
+    - [获取当前文件](#获取当前文件)
+    - [获取光标位置](#获取光标位置)
+    - [设置光标](#设置光标)
+    - [获取滚动位置](#获取滚动位置)
+    - [设置滚动位置](#设置滚动位置)
+    - [获取自定义frontmatter](#获取自定义frontmatter)
+    - [获取选择文字](#获取选择文字)
+    - [发送通知](#发送通知)
+- [plugin](#plugin)
+    - [生命周期](#生命周期)
+    - [设置快捷键](#设置快捷键)
+    - [设置文件菜单](#设置文件菜单)
+    - [加载设置](#加载设置)
+    - [保存设置](#保存设置)
+- [其他](#其他)
+    - [网络请求](#网络请求)
+
 # vault
 
 ## 获取库的基础路径
@@ -90,7 +117,7 @@ const editor = this.getEditor()
 editor.scrollTo(left, top);
 ```
 
-## 获取自定义 frontmatter
+## 获取自定义frontmatter
 
 ```ts
   getFrontmatterValue(key: string, defaultValue: any = undefined) {
