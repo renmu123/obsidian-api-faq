@@ -102,8 +102,8 @@ const content = editor.getLine(line)
 
 ```ts
 const editor = this.getEditor()
-//
-const content = editor.setLine("string")
+// line参数为某一行的行数
+const content = editor.setLine(line, "string")
 ```
 
 ## 获取当前文件
